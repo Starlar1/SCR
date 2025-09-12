@@ -1258,8 +1258,8 @@ SCS App သုံးပါ </p>
             <select id="paymentMethod" class="form-control" required style="padding: 0.8rem 1rem; background: white; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 8px; appearance: none; width: 100%; color: var(--mlbb-light); font-size: 0.9rem;">
                 <option value="" selected disabled>ငွေလွှဲနည်းလမ်း ရွေးပါ</option>
          
-                <option value="wave2">WavePay - 09989310061 (9 PM - 8 PM)</option>
-                <option value="kpay">KPay - 09989310061 (9 AM - 8 PM)</option>
+                <option value="wave2">WavePay - 09677007906 (9 PM - 8 PM)</option>
+                <option value="kpay">KPay - 09677007906 (9 AM - 8 PM)</option>
             </select>
             <div class="select-arrow" style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--mlbb-primary);">
                 <i class="fas fa-chevron-down"></i>
@@ -1502,10 +1502,10 @@ document.getElementById('purchaseForm').addEventListener('submit', async functio
     switch(paymentMethod) {
         
         case 'wave2':
-            paymentPhone = '09989310061';
+            paymentPhone = '09677007906';
             break;
         case 'kpay':
-            paymentPhone = '09989310061';
+            paymentPhone = '09677007906';
             break;
     }
 
@@ -1747,14 +1747,14 @@ document.getElementById('paymentMethod').addEventListener('change', function() {
         switch(method) {
             case 'wave2':
                 methodName = 'WavePay';
-                accountNumber = '09989310061';
-                accountHolder = 'Kaung Myat San';
+                accountNumber = '09677007906';
+                accountHolder = 'Mya San Yee';
                 processingTime = 'နံနက် 9 PM မှ ည 8 PMထိ အားသည်';
                 break;
             case 'kpay':
                 methodName = 'KPay';
-                accountNumber = '09989310061';
-                accountHolder = 'Kaung Myat San';
+                accountNumber = '09677007906';
+                accountHolder = 'Mya San Yee';
                 processingTime = 'နံနက် 9 AM မှ ည 8 PM ထိအားသည်';
                 break;
         }
